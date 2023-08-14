@@ -1,0 +1,15 @@
+D:\Samples\Movies\Movies\bin\Debug\net6.0\Movies.exe
+D:\Samples\Movies\Movies\bin\Debug\net6.0\Movies.deps.json
+D:\Samples\Movies\Movies\bin\Debug\net6.0\Movies.runtimeconfig.json
+D:\Samples\Movies\Movies\bin\Debug\net6.0\Movies.dll
+D:\Samples\Movies\Movies\bin\Debug\net6.0\Movies.pdb
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.csproj.AssemblyReference.cache
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.dll
+D:\Samples\Movies\Movies\obj\Debug\net6.0\refint\Movies.dll
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.pdb
+D:\Samples\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
+D:\Samples\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
