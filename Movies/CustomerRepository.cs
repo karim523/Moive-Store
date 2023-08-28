@@ -1,5 +1,4 @@
-﻿using Movies;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,15 +8,18 @@ namespace MovieStore
 {
     public class CustomerRepository
     {
-       public Customer GetCustomer(int customerId)
+        private readonly AppDbcontext _context;
+        public CustomerRepository(AppDbcontext context)
         {
-            var context = new ApplicationDBcontext();
-            var customer=  context.Customers.Find(customerId);
-            context.Entry(customer).Collection(p => p.PurchasedMovies).Load();
+            _context = context;
+        }
+        public Customer GetCustomer(int customerId)
+        {
+            var customer = _context.Customers.Find(customerId);
+            _context.Entry(customer).Collection(p => p.PurchasedMovies).Load();
+             return customer;
 
-
-            return customer ;
-        }            
-
+        }
     }
+    
 }

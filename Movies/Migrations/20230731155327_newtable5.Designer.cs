@@ -11,7 +11,7 @@ using MovieStore;
 
 namespace MovieStore.Migrations
 {
-    [DbContext(typeof(ApplicationDBcontext))]
+    [DbContext(typeof(AppDbcontext))]
     [Migration("20230731155327_newtable5")]
     partial class newtable5
     {
